@@ -261,7 +261,7 @@ languageName = ["Español", "English"]
           [params.page.comment.gitalk]
             enable = true
             owner = "https://github.com/techeca"
-            repo = "https://github.com/techeca/MiBew2"
+            repo = "https://github.com/techeca/MiBew2/tree/comments"
             clientId = "ecc912741a9c38abefa2"
             clientSecret = "d402373c31036f4d18ec2300181169b6154b5812"
           # Facebook comment config
