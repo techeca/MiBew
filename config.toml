@@ -35,7 +35,7 @@ languageName = ["Español", "English"]
     title = "MiBew"
     # website description for RSS, SEO, Open Graph and Twitter Cards
     description = "Mejor lo voy anotar, después se me olvida"
-    images = ["/images/horrible.png"]
+    images = ["./images/horrible.png"]
 
     # Header config
   [params.header]
