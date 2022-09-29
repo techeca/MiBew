@@ -401,7 +401,7 @@ languageName = ["Español", "English"]
       [[languages.es.menu.main]]
         # Unique identifier for a menu item
         identifier = "posts"
-        url = "/posts/"
+        url = "./posts/"
         # You can add extra information before the name (HTML format is supported), such as icons
         pre = "<span data-feather='book'></span>"
         # You can add extra information after the name (HTML format is supported), such as icons
@@ -414,7 +414,7 @@ languageName = ["Español", "English"]
       [[languages.es.menu.main]]
         identifier = "tags"
         name = "Etiquetas"
-        url = "/tags/"
+        url = "./tags/"
         pre = "<span data-feather='tag'></span>"
         weight = 2
       [[languages.es.menu.main]]
@@ -423,7 +423,7 @@ languageName = ["Español", "English"]
         pre = ""
         post = ""
         name = "Categorías"
-        url = "/categories/"
+        url = "./categories/"
         title = ""
       [[languages.es.menu.main]]
         identifier = "github"
@@ -439,7 +439,7 @@ languageName = ["Español", "English"]
       [[languages.en.menu.main]]
         # Unique identifier for a menu item
         identifier = "posts"
-        url = "/posts/"
+        url = "./posts/"
         # You can add extra information before the name (HTML format is supported), such as icons
         pre = "<span data-feather='book'></span>"
         # You can add extra information after the name (HTML format is supported), such as icons
@@ -451,7 +451,7 @@ languageName = ["Español", "English"]
       [[languages.en.menu.main]]
         identifier = "tags"
         name = "Tags"
-        url = "/tags/"
+        url = "./tags/"
         pre = "<span data-feather='tag'></span>"
         weight = 2
       [[languages.en.menu.main]]
@@ -460,5 +460,5 @@ languageName = ["Español", "English"]
         pre = ""
         post = ""
         name = "Categories"
-        url = "/categories/"
+        url = "./categories/"
         title = ""
