@@ -261,7 +261,7 @@ languageName = ["Español", "English"]
           [params.page.comment.gitalk]
             enable = true
             owner = "https://github.com/techeca"
-            repo = "https://github.com/techeca/mibew2"
+            repo = "https://github.com/techeca/MiBew2"
             clientId = "ecc912741a9c38abefa2"
             clientSecret = "d402373c31036f4d18ec2300181169b6154b5812"
           # Facebook comment config
@@ -384,10 +384,10 @@ languageName = ["Español", "English"]
         taskList = true
         typographer = true
       [markup.goldmark.renderer]
-      # whether to use HTML tags directly in the document
+        # whether to use HTML tags directly in the document
         unsafe = true
-      # Table Of Contents settings
-      # 目录设置
+        # Table Of Contents settings
+        # 目录设置
       [markup.tableOfContents]
         startLevel = 2
         endLevel = 6

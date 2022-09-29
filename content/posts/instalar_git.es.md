@@ -5,7 +5,6 @@ tags: ["Instalar y Configurar"]
 date: 2022-09-29T03:07:18-03:00
 description: "Guía para instalar GIT en Windows, Linux y Mac."
 draft: false
-type: "post"
 toc:
   enable: true
   auto: true
