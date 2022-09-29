@@ -1,4 +1,4 @@
-baseURL = 'https://techeca.github.io/Mibew2' #https://techeca.github.io/MiBew
+baseURL = 'https://techeca.github.io/MiBew2' #https://techeca.github.io/MiBew
 theme = "LoveIt"
 # Automatically generate robots.txt
 enableRobotsTXT = true
