@@ -1,0 +1,188 @@
+<!doctype html><html lang=es>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=robots content="noodp">
+<title>Instalar GIT - MiBew</title><meta name=Description content="Guía para instalar GIT en Windows, Linux y Mac."><meta property="og:title" content="Instalar GIT">
+<meta property="og:description" content="Guía para instalar GIT en Windows, Linux y Mac.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techeca.github.io/Mibew2/posts/instalar_git/"><meta property="og:image" content="https://techeca.github.io/images/horrible.png"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2022-09-28T04:39:58-03:00">
+<meta property="article:modified_time" content="2022-09-29T02:48:41-03:00"><meta property="og:site_name" content="MiBew">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://techeca.github.io/images/horrible.png">
+<meta name=twitter:title content="Instalar GIT">
+<meta name=twitter:description content="Guía para instalar GIT en Windows, Linux y Mac.">
+<meta name=application-name content="MiBew">
+<meta name=apple-mobile-web-app-title content="MiBew"><meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://techeca.github.io/Mibew2/posts/instalar_git/><link rel=stylesheet href=/Mibew2/lib/normalize/normalize.min.css><link rel=stylesheet href=/Mibew2/css/style.min.css><link rel=stylesheet href=/Mibew2/lib/fontawesome-free/all.min.css><link rel=stylesheet href=/Mibew2/lib/animate/animate.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Instalar GIT","inLanguage":"es","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/techeca.github.io\/Mibew2\/posts\/instalar_git\/"},"genre":"post","keywords":"Instalar y Configurar","wordcount":232,"url":"https:\/\/techeca.github.io\/Mibew2\/posts\/instalar_git\/","datePublished":"2022-09-28T04:39:58-03:00","dateModified":"2022-09-29T02:48:41-03:00","publisher":{"@type":"Organization","name":""},"author":{"@type":"Person","name":"techeca"},"description":"Guía para instalar GIT en Windows, Linux y Mac."}</script></head>
+<body data-header-desktop=fixed data-header-mobile=auto><script type=text/javascript>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':'auto'==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:'auto'==='dark')&&document.body.setAttribute('theme','dark')</script>
+<div id=mask></div><div class=wrapper><header class=desktop id=header-desktop>
+<div class=header-wrapper>
+<div class=header-title>
+<a href=/Mibew2/ title=MiBew>MiBew</a>
+</div>
+<div class=menu>
+<div class=menu-inner><a class=menu-item href=/Mibew2/Mibew2/posts/><span data-feather=book></span> Entradas </a><a class=menu-item href=/Mibew2/Mibew2/tags/><span data-feather=tag></span> Etiquetas </a><a class=menu-item href=/Mibew2/Mibew2/categories/> Categorías </a><a class=menu-item href=https://github.com rel="noopener noreffer" target=_blank><span data-feather=github></span> </a><span class="menu-item delimiter"></span><a href=javascript:void(0); class="menu-item language" title="Selecciona el lenguage">Español<i class="fas fa-chevron-right fa-fw" aria-hidden=true></i>
+<select class=language-select id=language-select-desktop onchange="location=this.value"><option value=/Mibew2/posts/instalar_git/ selected>Español</option></select>
+</a><span class="menu-item search" id=search-desktop>
+<input type=text placeholder="Busca títulos o contenido..." id=search-input-desktop>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-desktop title=Buscar>
+<i class="fas fa-search fa-fw" aria-hidden=true></i>
+</a>
+<a href=javascript:void(0); class="search-button search-clear" id=search-clear-desktop title=Limpiar>
+<i class="fas fa-times-circle fa-fw" aria-hidden=true></i>
+</a>
+<span class="search-button search-loading" id=search-loading-desktop>
+<i class="fas fa-spinner fa-fw fa-spin" aria-hidden=true></i>
+</span>
+</span><a href=javascript:void(0); class="menu-item theme-switch" title="Cambia el tema">
+<i class="fas fa-adjust fa-fw" aria-hidden=true></i>
+</a>
+</div>
+</div>
+</div>
+</header><header class=mobile id=header-mobile>
+<div class=header-container>
+<div class=header-wrapper>
+<div class=header-title>
+<a href=/Mibew2/ title=MiBew>MiBew</a>
+</div>
+<div class=menu-toggle id=menu-toggle-mobile>
+<span></span><span></span><span></span>
+</div>
+</div>
+<div class=menu id=menu-mobile><div class=search-wrapper>
+<div class="search mobile" id=search-mobile>
+<input type=text placeholder="Busca títulos o contenido..." id=search-input-mobile>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-mobile title=Buscar>
+<i class="fas fa-search fa-fw" aria-hidden=true></i>
+</a>
+<a href=javascript:void(0); class="search-button search-clear" id=search-clear-mobile title=Limpiar>
+<i class="fas fa-times-circle fa-fw" aria-hidden=true></i>
+</a>
+<span class="search-button search-loading" id=search-loading-mobile>
+<i class="fas fa-spinner fa-fw fa-spin" aria-hidden=true></i>
+</span>
+</div>
+<a href=javascript:void(0); class=search-cancel id=search-cancel-mobile>
+Cancelar
+</a>
+</div><a class=menu-item href=/Mibew2/Mibew2/posts/ title><span data-feather=book></span>Entradas</a><a class=menu-item href=/Mibew2/Mibew2/tags/ title><span data-feather=tag></span>Etiquetas</a><a class=menu-item href=/Mibew2/Mibew2/categories/ title>Categorías</a><a class=menu-item href=https://github.com title rel="noopener noreffer" target=_blank><span data-feather=github></span></a><a href=javascript:void(0); class="menu-item theme-switch" title="Cambia el tema">
+<i class="fas fa-adjust fa-fw" aria-hidden=true></i>
+</a><a href=javascript:void(0); class=menu-item title="Selecciona el lenguage">Español<i class="fas fa-chevron-right fa-fw" aria-hidden=true></i>
+<select class=language-select onchange="location=this.value"><option value=/Mibew2/posts/instalar_git/ selected>Español</option></select>
+</a></div>
+</div>
+</header><div class="search-dropdown desktop">
+<div id=search-dropdown-desktop></div>
+</div>
+<div class="search-dropdown mobile">
+<div id=search-dropdown-mobile></div>
+</div><main class=main>
+<div class=container><div class="page single special"><h1 class="single-title animate__animated animate__pulse animate__faster">Instalar GIT</h1><h2 class=single-subtitle>How install GIT on Windows, Linux or Mac.</h2><div class=content id=content><h1 id=instalar-git>Instalar GIT</h1>
+<p>A continuación dejo los pasos para la instalación de GIT, el cual puede ser utilizado en Windows, Linux y Mac.</p>
+<blockquote>
+<p>Homebrew es un sistema de gestión de paquetes que simplifica la instalación, actualización y eliminación de programas en los sistemas operativos Mac OS de Apple y GNU/Linux.</p>
+</blockquote>
+<h2 id=windows>Windows</h2>
+<p>Debemos entrar en <a href=https://git-scm.com/download/win target=_blank rel="noopener noreffer">la página oficial de GIT</a>
+y descargar la versión que nos corresponda, ya sea de 32-bit o 64-bit.</p>
+<p>Podemos probar que todo está correcto con el siguiente comando:
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git --version</code></pre></td></tr></table>
+</div>
+</div></p>
+<p>En mi caso la salida es la siguiente:
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git version 2.33.1.windows.1</code></pre></td></tr></table>
+</div>
+</div></p>
+<h2 id=linux>Linux</h2>
+<p>En Linux va a depender la distro que estás utilizando, aquí está la <a href=https://git-scm.com/download/linux target=_blank rel="noopener noreffer">web de GIT con todos los comandos disponibles según la distro</a>
+.\</p>
+<p>Igual dejo la versión de Ubunto como ejemplo.
+Recuerda actualizar la lista de paquetes con <code>apt-get update</code> y <code>sudo</code> si es necesario.
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>sudo apt-get install git</code></pre></td></tr></table>
+</div>
+</div></p>
+<p>Revisa la versión con:
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git --version</code></pre></td></tr></table>
+</div>
+</div></p>
+<p>En mi caso la salida es la siguiente:
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git version 2.25.1</code></pre></td></tr></table>
+</div>
+</div></p>
+<h2 id=mac>Mac</h2>
+<p>En los sistemas Mac puedes utilizar Homebrew, puedes ver <a href=/posts/instalar_homebrew/ rel>como instalar Homebrew aquí</a>
+.</p>
+<p>Instalamos GIT utilizando Homebrew con el siguiente comando:
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>brew install git</code></pre></td></tr></table>
+</div>
+</div></p>
+<p>Revisa la versión con:
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git --version</code></pre></td></tr></table>
+</div>
+</div></p>
+<p>En mi caso la salida es la siguiente:
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git version 2.25.1</code></pre></td></tr></table>
+</div>
+</div></p>
+<p>Eso es todo, ya tenemos instalado GIT.</p>
+<p>🔗Te dejo la <a href=https://git-scm.com target=_blank rel="noopener noreffer">página Web de GIT</a>
+para documentación más detallada.</p>
+</div><div id=comments><div id=gitalk class=comment></div><noscript>
+Please enable JavaScript to view the comments powered by <a href=https://github.com/gitalk/gitalk></a>Gitalk</a>.
+</noscript></div></div></div>
+</main><footer class=footer>
+<div class=footer-container><div class=footer-line>Provisto por <a href=https://gohugo.io/ target=_blank rel="noopener noreffer" title="Hugo 0.91.2">Hugo</a> | Tema - <a href=https://github.com/dillonzq/LoveIt target=_blank rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden=true></i> LoveIt</a>
+</div><div class=footer-line itemscope itemtype=http://schema.org/CreativeWork><i class="far fa-copyright fa-fw" aria-hidden=true></i><span itemprop=copyrightYear>2022</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=/Mibew2/ target=_blank>techeca</a></span>&nbsp;|&nbsp;<span class=license><a rel="license external nofollow noopener noreffer" href=https://creativecommons.org/licenses/by-nc/4.0/ target=_blank>CC BY-NC 4.0</a></span></div>
+</div>
+</footer></div>
+<div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title="Volver arriba">
+<i class="fas fa-arrow-up fa-fw" aria-hidden=true></i>
+</a><a href=# id=view-comments class=fixed-button title="Ver comentarios">
+<i class="fas fa-comment fa-fw" aria-hidden=true></i>
+</a>
+</div><link rel=stylesheet href=/Mibew2/lib/gitalk/gitalk.min.css><link rel=stylesheet href=/Mibew2/lib/lightgallery/lightgallery.min.css><link rel=stylesheet href=/Mibew2/lib/katex/katex.min.css><link rel=stylesheet href=/Mibew2/lib/katex/copy-tex.min.css><script type=text/javascript src=/Mibew2/lib/gitalk/gitalk.min.js></script><script type=text/javascript src=/Mibew2/lib/autocomplete/autocomplete.min.js></script><script type=text/javascript src=/Mibew2/lib/lunr/lunr.min.js></script><script type=text/javascript src=/Mibew2/lib/lunr/lunr.stemmer.support.min.js></script><script type=text/javascript src=/Mibew2/lib/lunr/lunr.es.min.js></script><script type=text/javascript src=/Mibew2/lib/lazysizes/lazysizes.min.js></script><script type=text/javascript src=/Mibew2/lib/lightgallery/lightgallery.min.js></script><script type=text/javascript src=/Mibew2/lib/lightgallery/plugins/lg-thumbnail.min.js></script><script type=text/javascript src=/Mibew2/lib/lightgallery/plugins/lg-zoom.min.js></script><script type=text/javascript src=/Mibew2/lib/clipboard/clipboard.min.js></script><script type=text/javascript src=/Mibew2/lib/sharer/sharer.min.js></script><script type=text/javascript src=/Mibew2/lib/katex/katex.min.js></script><script type=text/javascript src=/Mibew2/lib/katex/auto-render.min.js></script><script type=text/javascript src=/Mibew2/lib/katex/copy-tex.min.js></script><script type=text/javascript src=/Mibew2/lib/katex/mhchem.min.js></script><script type=text/javascript>window.config={code:{copyTitle:"Copiar al portapapeles",maxShownLines:50},comment:{gitalk:{admin:["https://github.com/techeca"],clientID:"ecc912741a9c38abefa2",clientSecret:"d402373c31036f4d18ec2300181169b6154b5812",id:"2022-09-28T04:39:58-03:00",owner:"https://github.com/techeca",repo:"https://github.com/techeca/mibew2",title:"Instalar GIT"}},lightgallery:!0,math:{delimiters:[{display:!0,left:"$$",right:"$$"},{display:!0,left:"\\[",right:"\\]"},{display:!0,left:"\\begin{equation}",right:"\\end{equation}"},{display:!0,left:"\\begin{equation*}",right:"\\end{equation*}"},{display:!0,left:"\\begin{align}",right:"\\end{align}"},{display:!0,left:"\\begin{align*}",right:"\\end{align*}"},{display:!0,left:"\\begin{alignat}",right:"\\end{alignat}"},{display:!0,left:"\\begin{alignat*}",right:"\\end{alignat*}"},{display:!0,left:"\\begin{gather}",right:"\\end{gather}"},{display:!0,left:"\\begin{CD}",right:"\\end{CD}"},{display:!1,left:"$",right:"$"},{display:!1,left:"\\(",right:"\\)"}],strict:!1},search:{highlightTag:"em",lunrIndexURL:"/Mibew2/index.json",lunrLanguageCode:"es",maxResultLength:10,noResultsFound:"No se encontraron resultados",snippetLength:30,type:"lunr"}}</script><script type=text/javascript src=/Mibew2/js/theme.min.js></script></body>
+</html>
