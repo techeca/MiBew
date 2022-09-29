@@ -1,5 +1,5 @@
 ---
-title: "Instalar GIT"
+title: "Como Instalar GIT"
 subtitle: "Guía para instalar GIT en Windows, Linux y Mac."
 tags: ["Instalar"]
 date: 2022-09-29T03:07:18-03:00
