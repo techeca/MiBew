@@ -353,7 +353,7 @@ languageName = ["Español", "English"]
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-  #page = ["HTML", "MarkDown"]
+  page = ["HTML", "MarkDown"]
 
 # Markup related configuration in Hugo
 [markup]
