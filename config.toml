@@ -355,7 +355,7 @@ languageName = ["Español", "English"]
   [params.cdn]
         # CDN data file name, disabled by default
         # ["jsdelivr.yml"]
-        data = ["jsdelivr.yml"]
+        #data = ["jsdelivr.yml"]
 
 
 [outputs]
