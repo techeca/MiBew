@@ -16,7 +16,7 @@ Como instalar GIT en Windows, Linux y Mac.
 > Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.
 
 ## Windows
-Descargar desde [la página oficial de GIT](https://git-scm.com/download/win) y descargar la versión que nos corresponda, ya sea 32-bit o 64-bit.
+Descargar desde [la página oficial de GIT](https://git-scm.com/download/win) la versión que nos corresponda, ya sea 32-bit o 64-bit.
 
 Después de instalar, revisar versión con:
 {{< highlight shell >}}
@@ -29,7 +29,7 @@ git version 2.33.1.windows.1
 {{< / highlight >}}
 
 ## Linux
-En Linux va a depender la distro que se está utilizando, aquí está la [web de GIT con todos los comandos para instalación según la distro](https://git-scm.com/download/linux).\
+En Linux va a depender la distro que se está utilizando, aquí está la [web de GIT con todos los comandos para instalación según la distro](https://git-scm.com/download/linux).
 
 Igual dejo la versión de Ubuntu como ejemplo.
 Actualizar lista de paquetes con `apt-get update` y con `sudo` si es necesario.
