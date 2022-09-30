@@ -11,7 +11,7 @@ copyright = ""
 # whether to use git commit log
 enableGitInfo = true
 
-defaultContentLanguage = "es"
+defaultContentLanguage = "en"
 languageCode = ["es", "en"]
 languageName = ["Español", "English"]
 
@@ -20,6 +20,36 @@ languageName = ["Español", "English"]
   name = "techeca"
   email = ""
   link = ""
+
+# Menu config
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = "<i class='fa-regular fa-file'></i>"
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "./posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[menu.main]]
+    weight = 2
+    identifier = "tags"
+    pre = "<i class='fa-regular fa-bookmark'></i>"
+    post = ""
+    name = "Tags"
+    url = "./tags/"
+    title = ""
+  [[menu.main]]
+    weight = 3
+    identifier = "categories"
+    pre = "<i class='fa-regular fa-folder'></i>"
+    post = ""
+    name = "Categories"
+    url = "./categories/"
+    title = ""
 
 [params]
     # site default theme ["auto", "light", "dark"]
@@ -34,16 +64,16 @@ languageName = ["Español", "English"]
     # website title for Open Graph and Twitter Cards
     title = "MiBew"
     # website description for RSS, SEO, Open Graph and Twitter Cards
-    description = "Mejor lo voy anotar, después se me olvida"
+    description = "Guías de instalación y configuración de herramientas, frameworks, etc."
     images = ["./images/horrible.png"]
 
-    # Header config
+  # Header config
   [params.header]
     # desktop header mode ["fixed", "normal", "auto"]
     desktopMode = "fixed"
     # mobile header mode ["fixed", "normal", "auto"]
     mobileMode = "auto"
-    # LoveIt NEW | 0.2.0 Header title config
+    # Header title config
     [params.header.title]
       # URL of the LOGO
       logo = ""
@@ -56,8 +86,8 @@ languageName = ["Español", "English"]
       # whether to use typeit animation for title name
       typeit = false
 
-      # Footer config
-    [params.footer]
+  # Footer config
+  [params.footer]
       enable = true
       # Custom content (HTML format is supported)
       custom = ''
@@ -73,38 +103,38 @@ languageName = ["Español", "English"]
       icp = ""
       # license info (HTML format is supported)
       license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
-    # Section (all posts) page config
-    [params.section]
-      # special amount of posts in each section page
+  # Section (all posts) page config
+  [params.section]
+    # special amount of posts in each section page
+    paginate = 20
+    # date format (month and day)
+    dateFormat = "01-02"
+    # amount of RSS pages
+    rss = 10
+  # List (category or tag) page config
+  [params.list]
+      # special amount of posts in each list page
       paginate = 20
       # date format (month and day)
       dateFormat = "01-02"
       # amount of RSS pages
       rss = 10
-      # List (category or tag) page config
-      [params.list]
-        # special amount of posts in each list page
-        paginate = 20
-        # date format (month and day)
-        dateFormat = "01-02"
-        # amount of RSS pages
-        rss = 10
-      #  App icon config
-      [params.app]
-        # optional site title override for the app when added to an iOS home screen or Android launcher
-        title = "MiBew"
-        # whether to omit favicon resource links
-        noFavicon = false
-        # modern SVG favicon to use in place of older style .png and .ico files
-        svgFavicon = ""
-        # Android browser theme color
-        themeColor = "#ffffff"
-        # Safari mask icon color
-        iconColor = "#5bbad5"
-        # Windows v8-10 tile color
-        tileColor = "#da532c"
-      #  Search config
-      [params.search]
+  #  App icon config
+  [params.app]
+    # optional site title override for the app when added to an iOS home screen or Android launcher
+    title = "MiBew"
+    # whether to omit favicon resource links
+    noFavicon = false
+    # modern SVG favicon to use in place of older style .png and .ico files
+    svgFavicon = ""
+    # Android browser theme color
+    themeColor = "#ffffff"
+    # Safari mask icon color
+    iconColor = "#5bbad5"
+    # Windows v8-10 tile color
+    tileColor = "#da532c"
+  #  Search config
+  [params.search]
         enable = true
         # type of search engine ["lunr", "algolia"]
         type = "lunr"
@@ -120,48 +150,47 @@ languageName = ["Español", "English"]
         highlightTag = "em"
         # whether to use the absolute URL based on the baseURL in search index
         absoluteURL = false
-      # Home page config
-      [params.home]
-        # amount of RSS pages
-        rss = 10
-        # Home page profile
-        [params.home.profile]
-          enable = true
-          # Gravatar Email for preferred avatar in home page
-          gravatarEmail = ""
-          # URL of avatar shown in home page
-          avatarURL = "./images/horrible.png"
-          # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-          title = ""
-          # subtitle shown in home page (HTML format is supported)
-          subtitle = "This is My New Hugo Site"
-          # whether to use typeit animation for subtitle
-          typeit = true
-          # whether to show social links
-          social = true
-          #  disclaimer (HTML format is supported)
-          disclaimer = ""
-        # Home page posts
-        [params.home.posts]
+  # Home page config
+  [params.home]
+      # amount of RSS pages
+      rss = 10
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = ""
+      # URL of avatar shown in home page
+      avatarURL = "./images/horrible.png"
+      # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
+      title = ""
+      # subtitle shown in home page (HTML format is supported)
+      subtitle = "Mejor lo voy anotar, después se me olvida"
+      # whether to use typeit animation for subtitle
+      typeit = true
+      # whether to show social links
+      social = true
+      #  disclaimer (HTML format is supported)
+      disclaimer = ""
+    # Home page posts
+    [params.home.posts]
           enable = true
           # special amount of posts in each home posts page
           paginate = 6
           #  replaced with hiddenFromHomePage in params.page
           # default behavior when you don't set "hiddenFromHomePage" in front matter
           defaultHiddenFromHomePage = false
-
-          # Social config about the author
-      [params.social]
-          GitHub = "xxxx"
-          Linkedin = ""
-          Twitter = "xxxx"
-          Instagram = "xxxx"
-          Spotify = ""
-          Kickstarter = ""
-          Email = "xxxx@xxxx.com"
-          RSS = true
-      #  Page global config
-      [params.page]
+  # Social config about the author
+  [params.social]
+        GitHub = "xxxx"
+        Linkedin = ""
+        Twitter = "xxxx"
+        Instagram = ""
+        Spotify = ""
+        Kickstarter = ""
+        Email = ""
+        RSS = true
+  #  Page global config
+  [params.page]
         # whether to hide a page from home page
         hiddenFromHomePage = false
         # whether to hide a page from search results
@@ -201,13 +230,13 @@ languageName = ["Español", "English"]
           copyTex = true
           # KaTeX extension mhchem
           mhchem = true
-        # LoveIt NEW | 0.2.0 Code config
+        # Code config
         [params.page.code]
               # whether to show the copy button of the code block
               copy = true
               # the maximum number of lines of displayed code by default
               maxShownLines = 50
-        # LoveIt NEW | 0.2.0 Mapbox GL JS config
+        # Mapbox GL JS config
         [params.page.mapbox]
               # access token of Mapbox GL JS
               accessToken = ""
@@ -229,26 +258,26 @@ languageName = ["Español", "English"]
               Twitter = true
               Facebook = true
               Linkedin = false
-              Whatsapp = false
+              Whatsapp = true
               Pinterest = false
               Tumblr = false
-              HackerNews = true
+              HackerNews = false
               Reddit = false
               VK = false
               Buffer = false
               Xing = false
-              Line = true
+              Line = false
               Instapaper = false
               Pocket = false
               Flipboard = false
-              Weibo = true
-              Blogger = false
+              Weibo = false
+              Blogger = true
               Odnoklassniki = false
-              Evernote = false
+              Evernote = true
               Skype = false
               Trello = false
               Mix = false
-        #  Comment config
+        # Comment config
         [params.page.comment]
           enable = true
           # Disqus comment config
@@ -272,58 +301,19 @@ languageName = ["Español", "English"]
               appId = ""
               # automatically adapt the current theme i18n configuration when empty
               languageCode = ""
-          # Telegram comments config
-          [params.page.comment.telegram]
-                    enable = false
-                    siteID = ""
-                    limit = 5
-                    height = ""
-                    color = ""
-                    colorful = true
-                    dislikes = false
-                    outlined = false
-          # Commento comment config
-          [params.page.comment.commento]
-              enable = false
-          #  utterances comment config
-          [params.page.comment.utterances]
-                    enable = false
-                    # owner/repo
-                    repo = ""
-                    issueTerm = "pathname"
-                    label = ""
-                    lightTheme = "github-light"
-                    darkTheme = "github-dark"
-          # giscus comment config (https://giscus.app/)
-          [params.page.comment.giscus]
-                    # You can refer to the official documentation of giscus to use the following configuration.
-                    enable = false
-                    repo = ""
-                    repoId = ""
-                    category = "Announcements"
-                    categoryId = ""
-                    # automatically adapt the current theme i18n configuration when empty
-                    lang = ""
-                    mapping = "pathname"
-                    reactionsEnabled = "1"
-                    emitMetadata = "0"
-                    inputPosition = "bottom"
-                    lazyLoading = false
-                    lightTheme = "light"
-                    darkTheme = "dark"
-        #  Third-party library config
+        # Third-party library config
         [params.page.library]
-        [params.page.library.css]
-                    # someCSS = "some.css"
-                    # located in "assets/"
-                    # Or
-                    # someCSS = "https://cdn.example.com/some.css"
-        [params.page.library.js]
-                    # someJavascript = "some.js"
-                    # located in "assets/"
-                    # Or
-                    # someJavascript = "https://cdn.example.com/some.js"
-                #  Page SEO config
+          [params.page.library.css]
+                      # someCSS = "some.css"
+                      # located in "assets/"
+                      # Or
+                      # someCSS = "https://cdn.example.com/some.css"
+          [params.page.library.js]
+                      # someJavascript = "some.js"
+                      # located in "assets/"
+                      # Or
+                      # someJavascript = "https://cdn.example.com/some.js"
+        # Page SEO config
         [params.page.seo]
             # image URL
             images = []
@@ -331,8 +321,8 @@ languageName = ["Español", "English"]
             [params.page.seo.publisher]
                 name = ""
                 logoUrl = ""
-                #  TypeIt config
-        [params.typeit]
+  #  TypeIt config
+  [params.typeit]
             # typing speed between each step (measured in milliseconds)
             speed = 100
             # blinking speed of the cursor (measured in milliseconds)
@@ -341,30 +331,32 @@ languageName = ["Español", "English"]
             cursorChar = "|"
             # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
             duration = -1
-            # Site verification code config for Google/Bing/Yandex/Pinterest/Baidu
-        [params.verification]
+  # Site verification code config for Google/Bing/Yandex/Pinterest/Baidu
+  [params.verification]
             google = ""
             bing = ""
             yandex = ""
             pinterest = ""
             baidu = ""
-            #  Site SEO config
-        [params.seo]
+  #  Site SEO config
+  [params.seo]
             # image URL
             image = ""
             # thumbnail URL
             thumbnailUrl = ""
-            #  Analytics config
-            [params.analytics]
-     [params.cdn]
+  #  Analytics config
+  [params.analytics]
+  [params.cdn]
         # CDN data file name, disabled by default
         # ["jsdelivr.yml"]
         data = ""
-  [outputs]
-    home = ["HTML", "RSS", "JSON"]
 
-  # Markup related configuration in Hugo
-  [markup]
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "MarkDown"]
+
+# Markup related configuration in Hugo
+[markup]
     # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
     [markup.highlight]
       codeFences = true
@@ -387,78 +379,6 @@ languageName = ["Español", "English"]
         # whether to use HTML tags directly in the document
         unsafe = true
         # Table Of Contents settings
-        # 目录设置
-      [markup.tableOfContents]
+    [markup.tableOfContents]
         startLevel = 2
         endLevel = 6
-
-[languages]
-  [languages.es]
-    weight = 1
-    title = 'MiBew'
-    languageCode = 'es'
-    languageName = "Español"
-      [[languages.es.menu.main]]
-        # Unique identifier for a menu item
-        identifier = "posts"
-        url = "./posts/"
-        # You can add extra information before the name (HTML format is supported), such as icons
-        pre = "<span data-feather='book'></span>"
-        # You can add extra information after the name (HTML format is supported), such as icons
-        post = ""
-        # Display name
-        name = "Entradas"
-        # Weights are used to determine the ordering
-        weight = 1
-        title = ""
-      [[languages.es.menu.main]]
-        identifier = "tags"
-        name = "Etiquetas"
-        url = "./tags/"
-        pre = "<span data-feather='tag'></span>"
-        weight = 2
-      [[languages.es.menu.main]]
-        weight = 3
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "Categorías"
-        url = "./categories/"
-        title = ""
-      [[languages.es.menu.main]]
-        identifier = "github"
-        url = "https://github.com"
-        weight = 4
-        # We use feather-icons: https://feathericons.com/
-        pre = "<span data-feather='github'></span>"
-  [languages.en]
-    weight = 2
-    title = 'MiBew'
-    languageCode = 'en'
-    languageName = "English"
-      [[languages.en.menu.main]]
-        # Unique identifier for a menu item
-        identifier = "posts"
-        url = "./posts/"
-        # You can add extra information before the name (HTML format is supported), such as icons
-        pre = "<span data-feather='book'></span>"
-        # You can add extra information after the name (HTML format is supported), such as icons
-        post = ""
-        # Display name
-        name = "Posts"
-        # Weights are used to determine the ordering
-        weight = 1
-      [[languages.en.menu.main]]
-        identifier = "tags"
-        name = "Tags"
-        url = "./tags/"
-        pre = "<span data-feather='tag'></span>"
-        weight = 2
-      [[languages.en.menu.main]]
-        weight = 3
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "Categories"
-        url = "./categories/"
-        title = ""
