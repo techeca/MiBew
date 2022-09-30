@@ -340,10 +340,18 @@ languageName = ["Español", "English"]
             baidu = ""
   #  Site SEO config
   [params.seo]
-            # image URL
-            image = ""
-            # thumbnail URL
-            thumbnailUrl = ""
+    # image URL
+    image = ""
+    # thumbnail URL
+    thumbnailUrl = ""
+  # Cookie consent config
+  [params.cookieconsent]
+    enable = true
+    # text strings used for Cookie consent banner
+    [params.cookieconsent.content]
+      message = "acepta las coockies please :D"
+      dismiss = "NO!"
+      link = "xxx"
   [params.cdn]
         # CDN data file name, disabled by default
         # ["jsdelivr.yml"]
