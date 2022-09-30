@@ -355,13 +355,8 @@ languageName = ["Español", "English"]
   [params.cdn]
         # CDN data file name, disabled by default
         # ["jsdelivr.yml"]
-        data = ""
-  [privacy]
-    [privacy.googleAnalytics]
-      anonymizeIP = false
-      disable = false
-      respectDoNotTrack = false
-      useSessionStorage = false
+        data = ["jsdelivr.yml"]
+
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
