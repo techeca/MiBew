@@ -42,14 +42,7 @@ languageName = ["Español", "English"]
     name = "Tags"
     url = "./tags/"
     title = ""
-  [[menu.main]]
-    weight = 3
-    identifier = "categories"
-    pre = "<i class='fa-regular fa-folder'></i>"
-    post = ""
-    name = "Categories"
-    url = "./categories/"
-    title = ""
+
 
 [params]
     # site default theme ["auto", "light", "dark"]
@@ -181,7 +174,7 @@ languageName = ["Español", "English"]
           defaultHiddenFromHomePage = false
   # Social config about the author
   [params.social]
-        GitHub = "xxxx"
+        GitHub = "https://github.com/techeca/MiBew"
         Linkedin = ""
         Twitter = "xxxx"
         Instagram = ""
@@ -341,9 +334,9 @@ languageName = ["Español", "English"]
   #  Site SEO config
   [params.seo]
     # image URL
-    image = ""
+    image = "https://techeca.github.io/MiBew/images/horrible.png"
     # thumbnail URL
-    thumbnailUrl = ""
+    thumbnailUrl = "https://techeca.github.io/MiBew/images/horrible.png"
   # Cookie consent config
   [params.cookieconsent]
     enable = true
