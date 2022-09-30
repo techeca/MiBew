@@ -349,13 +349,19 @@ languageName = ["Español", "English"]
     enable = true
     # text strings used for Cookie consent banner
     [params.cookieconsent.content]
-      message = "acepta las coockies please :D"
-      dismiss = "NO!"
-      link = "xxx"
+      message = "Coockies activas!"
+      dismiss = "Cerrar"
+      link = "Mira sobre Cookies"
   [params.cdn]
         # CDN data file name, disabled by default
         # ["jsdelivr.yml"]
         data = ""
+  [privacy]
+    [privacy.googleAnalytics]
+      anonymizeIP = false
+      disable = false
+      respectDoNotTrack = false
+      useSessionStorage = false
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
