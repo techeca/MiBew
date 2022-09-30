@@ -344,8 +344,6 @@ languageName = ["Español", "English"]
             image = ""
             # thumbnail URL
             thumbnailUrl = ""
-  #  Analytics config
-  [params.analytics]
   [params.cdn]
         # CDN data file name, disabled by default
         # ["jsdelivr.yml"]

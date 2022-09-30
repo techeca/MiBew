@@ -15,3 +15,5 @@
 {{- with .Site.Params.app.tileColor -}}
     <meta name="msapplication-TileColor" content="{{ . }}">
 {{- end -}}
+
+{{ template "_internal/google_analytics.html" . }}
