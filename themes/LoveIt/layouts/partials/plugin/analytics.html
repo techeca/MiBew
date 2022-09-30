@@ -5,7 +5,7 @@
     {{- with $analytics.google.id -}}
         <script type="text/javascript">
             window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
-            gtag('config', 'G-QHRKQBFGXW');
+            gtag('config', {{ $analytics.google.id }});
         </script>
     {{- end -}}
 
