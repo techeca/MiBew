@@ -112,6 +112,15 @@ Se puede utilizar CMD o PowerShell
 CMD Abrir CMD con permisos de administrador y ejecutar: 1 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.</div><div class=post-footer>
 <a href=/MiBew/posts/instalar_chocolatey/>Read More</a><div class=post-tags>
 <i class="fas fa-tags fa-fw" aria-hidden=true></i>&nbsp;<a href=/MiBew/tags/instalar/>Instalar</a></div></div>
+</article><article class="single summary" itemscope itemtype=http://schema.org/Article><h1 class=single-title itemprop="name headline">
+<a href=/MiBew/posts/configurar_cra_flowbite/>Configurar CRA + Flowbite</a>
+</h1><div class=post-meta><span class=post-author><a href=/MiBew/ title=Author rel=author class=author><i class="fas fa-user-circle fa-fw" aria-hidden=true></i>techeca</a>
+</span>&nbsp;<span class=post-publish>published on <time datetime=2022-09-28>2022-09-28</time></span></div><div class=content>Create React App Para crear una app limpia 1 npx create-react-app miapp
+Tailwind + Flowbite Instalar Tailwind con Flowbite 1 2 npm install -D tailwindcss flowbite npx tailwindcss init
+Configurar tailwind.config.js 1 2 3 4 5 6 7 8 9 10 module.exports = { darkMode: 'media', content: [ "./src/**/*.{js,jsx,ts,tsx}" ], theme: { extend: {}, }, plugins: [require('flowbite/plugin')], }
+Agregar en src/App.css 1 2 3 @tailwind base; @tailwind components; @tailwind utilities;</div><div class=post-footer>
+<a href=/MiBew/posts/configurar_cra_flowbite/>Read More</a><div class=post-tags>
+<i class="fas fa-tags fa-fw" aria-hidden=true></i>&nbsp;<a href=/MiBew/tags/configurar/>Configurar</a></div></div>
 </article></div></div>
 </main><footer class=footer>
 <div class=footer-container><div class=footer-line>Powered by <a href=https://gohugo.io/ target=_blank rel="noopener noreffer" title="Hugo 0.91.2">Hugo</a> | Theme - <a href=https://github.com/dillonzq/LoveIt target=_blank rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden=true></i> LoveIt</a>
