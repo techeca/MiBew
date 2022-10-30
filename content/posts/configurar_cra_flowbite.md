@@ -5,6 +5,9 @@ tags: ["Configurar"]
 date: 2022-09-28T00:59:58-03:00
 description: "Como configurar create react app con Flowbite."
 draft: false
+toc:
+  enable: true
+  auto: true
 ---
 
 # Create React App

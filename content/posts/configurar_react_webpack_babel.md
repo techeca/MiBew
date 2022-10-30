@@ -116,7 +116,7 @@ root.render(<h1>Hola con React</h1>)
 ```
 
 ## Editar package.json
-Remover `main`
+Remover `main` 
 
 {{< highlight json "linenos=table,hl_lines=5 8-9,linenostart=1" >}}
 {

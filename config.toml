@@ -272,7 +272,7 @@ languageName = ["Español", "English"]
               Mix = false
         # Comment config
         [params.page.comment]
-          enable = true
+          enable = false
           # Disqus comment config
           [params.page.comment.disqus]
            # LoveIt NEW | 0.1.1
@@ -281,7 +281,7 @@ languageName = ["Español", "English"]
            shortname = ""
           # Gitalk comment config
           [params.page.comment.gitalk]
-            enable = true
+            enable = false
             owner = "techeca"
             repo = "comments_Mibew"
             clientId = "ecc912741a9c38abefa2"
