@@ -6,7 +6,7 @@ enableRobotsTXT = true
 enableEmoji = true
 
 paginate = 12
-googleAnalytics = "G-QHRKQBFGXW"
+googleAnalytics = "" # "G-QHRKQBFGXW"
 copyright = ""
 # whether to use git commit log
 enableGitInfo = true
@@ -87,7 +87,7 @@ languageName = ["Español", "English"]
       # whether to show Hugo and theme info
       hugo = true
       # whether to show copyright info
-      copyright = true
+      copyright = false
       # whether to show the author
       author = true
       # Site creation time
@@ -264,7 +264,7 @@ languageName = ["Español", "English"]
               Pocket = false
               Flipboard = false
               Weibo = false
-              Blogger = true
+              Blogger = false
               Odnoklassniki = false
               Evernote = true
               Skype = false
@@ -339,7 +339,7 @@ languageName = ["Español", "English"]
     thumbnailUrl = "https://techeca.github.io/MiBew/images/horrible.png"
   # Cookie consent config
   [params.cookieconsent]
-    enable = true
+    enable = false
     # text strings used for Cookie consent banner
     [params.cookieconsent.content]
       message = "Coockies activas!"
