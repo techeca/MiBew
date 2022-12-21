@@ -42,12 +42,12 @@ module.exports = {
 };
 ```
 
-# Instalar TailwindCSS
+## Instalar TailwindCSS
 ```bash
 npm i -D tailwindcss
 ```
 
-## Configurar TailwindCSS
+### Configurar TailwindCSS
 Crear `tailwind.config.js` con:
 ```bash
 npx tailwindcss init
